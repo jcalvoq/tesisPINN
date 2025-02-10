@@ -2,18 +2,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 mu = 0.25
-alpha,beta,gamma,delta = 1,0.1,1,0.05
 
-#dx/dt = alpha*x - beta*x*y prey
-#dx/dt = y
 def f(x,y,t):
-    #return alpha * x - beta * x * y
     return y
 
-#dy/dt = -gamma*y + delta*x*y predator 
-#dy/dt = mu(1-x^2)y-x
 def g(x,y,t):
-    #return -gamma * y + delta * x * y
     return mu*(1 - x**2.0)*y - x
 
 def vanDerPol(t_ini,t_fin,x_ini,y_ini,dt):
@@ -66,6 +59,5 @@ y_ini = 0.0
 vec_x , vec_y , vec_t = vanDerPol(t_ini,t_fin,x_ini,y_ini,dt)
 
 plt.plot(vec_t , vec_x)
-#plt.plot(vec_t , vec_y,label = "Predator")
 plt.grid()
 plt.show()

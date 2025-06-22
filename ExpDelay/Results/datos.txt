@@ -1,0 +1,1 @@
+['k=', -0.25, 'num epochs=', 100000, 'num nodos=', 50, 'activacion=', 'tanh', 't_ini y t_fin', 0.0, ' a ', 70.0, 'lr=', 0.001]

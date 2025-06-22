@@ -1,0 +1,1 @@
+['num puntos=', 1000, 'num epochs=', 200000, 'num nodos=', 40, 'activacion=', 'sigmoid', 't_ini y t_fin', 0.0, ' a ', 12.0, 'lr=', 0.01]

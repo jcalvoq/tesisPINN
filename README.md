@@ -16,11 +16,27 @@ In order to execute this project, it is necessary to have the following programs
 ├── README.md          <- The top-level README for developers using this project.
 ├── ExpDelay           <- Results and code used for exponential delay differential equation.
 │    └── Results                 <- Folder including images and weights for the DDE.
+├── Logistic Delay a0.3     <- Results and code utilized for the logistic DDE with a = 0.3
+│    ├── Results including the additional condition     <- Folder with the images and weights including the additional 
+│    │                                                     condition to the loss function.
+│    └── Results without the additional conidition      <- Folder with the images and weights without using the additional condition.
+├── Logistic Delay a1.4     <- Results and code utilized for the logistic DDE with a = 1.4
+│    ├── Results including the additional condition     <- Folder with the images and weights including the additional 
+│    │                                                     condition to the loss function.
+│    └── Results without the additional conidition      <- Folder with the images and weights without using the additional condition.
 ├── Logistic           <- Results and code used for logstic differential equation without delay.
 │    ├── Results with additional condition              <- Folder including the results of the logistic equation
 │    │                                                     with the additional condition.
 │    └── Results without the additional condition       <- Folder including the results of the logistic equation
-│                                                          without the additional condition on the loss function.
+│    │                                                     without the additional condition on the loss function.
+├── Lotka-Volterra Delay        <- Results and code used for the Lokta-Volterra equations with delay.
+│    └── Results                        <- Folder including the images and weights for the system of delay differential equations.
+├── Lotka-Volterra        <- Results and code used for the Lokta-Volterra equations without delay.
+│    └── Results                        <- Folder including the images and weights for the system of differential equations.
+├── Simple Example        <- Results and code used for the simple example with known solution.
+│    └── Results                        <- Folder including the images and weights for the ordinary differential equation.
+├── Van der Pol           <- Results and code used for the Van der Pol oscillator.
+└──  └── Results                        <- Folder including the images and weights for the Van der Pol oscillator.
 ```
 
 ## 📥 Clone Project

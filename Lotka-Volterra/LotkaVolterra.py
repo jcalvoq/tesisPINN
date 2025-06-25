@@ -64,7 +64,7 @@ def loss(t,epoch):
     eIC2 = (y[0] - y_ini).pow(2)
     eIC2 = torch.mean(eIC2)
     
-    loss = (1/(n+1))*(error1 + error2 + eIC1 + eIC2)    
+    loss = (1/4)*(error1 + error2 + eIC1 + eIC2)    
     
     if(epoch % 500 == 0):
         vec_loss.append(loss.detach().cpu().numpy())
